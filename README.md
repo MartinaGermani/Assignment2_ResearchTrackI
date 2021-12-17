@@ -2,9 +2,22 @@
 
 
 ## How to run:
+First of all it is necessary to run
+```c++
+roscore
+````
+Then, you have to run the simulation environment in the following way:
+```c++
+rosrun stage_ros stageros $(rospack find second_assignment)/world/my_world.world
+````
+And, after opening two more windows in the terminal, you have to run:
+```c++
+rosrun second_assignment robot_control
+````
 
-
-
+```c++
+rosrun my_svr UI__node
+````
 ## Explanation of the code structure:
 The aim of this second assignment is to drive the robot around the circuit, avoiding that it encounters the obstacles, represented by the edges of the circuit. 
 To do that I have used ROS, and the code is written in C++.
