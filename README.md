@@ -33,6 +33,6 @@ So, I have defined two subscribers(one for the distance and one for the velocity
 ## Pseudo-Code
 Once the control node is executed, the robot starts moving in the circuit according to the following logic:
 
-![alt text](https://github.com/MartinaGermani/Assignment2_ResearchTrackI/blob/main/flowchart_control.jpg?raw=true
+![alt text](https://github.com/MartinaGermani/Assignment2_ResearchTrackI/blob/main/flowchart_control.jpg?raw=true)
 
-![alt text](https://github.com/MartinaGermani/Assignment2_ResearchTrackI/blob/main/flowchart_UI.jpg?raw=true
+![alt text](https://github.com/MartinaGermani/Assignment2_ResearchTrackI/blob/main/flowchart_UI.jpg?raw=true)
