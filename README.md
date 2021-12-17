@@ -1,8 +1,7 @@
 # Assignment2 - ROS C++
-
-
+In this assignment I have used ROS to drive a robot in a circuit.
 ## How to run:
-First of all it is necessary to run
+First of all it is necessary to run the master, using the command below:
 ```c++
 roscore
 ````
@@ -14,7 +13,6 @@ And, after opening two more windows in the terminal, you have to run:
 ```c++
 rosrun second_assignment robot_control
 ````
-
 ```c++
 rosrun my_svr UI__node
 ````
