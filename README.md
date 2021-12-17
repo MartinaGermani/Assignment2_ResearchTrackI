@@ -31,8 +31,9 @@ So, I have defined two subscribers(one for the distance and one for the velocity
   ros::Publisher pub =  nh.advertise<geometry_msgs::Twist> ("/cmd_vel", 10);
 ````
 ## Pseudo-Code
-Once the control node is executed, the robot starts moving in the circuit according to the following logic:
+To explain in more detail how the code works, I report below two flowcharts (one for each node), which show the flow of reasoning:
 
 ![alt text](https://github.com/MartinaGermani/Assignment2_ResearchTrackI/blob/main/flowchart_control.jpg?raw=true)
 
 ![alt text](https://github.com/MartinaGermani/Assignment2_ResearchTrackI/blob/main/flowchart_UI.jpg?raw=true)
+
